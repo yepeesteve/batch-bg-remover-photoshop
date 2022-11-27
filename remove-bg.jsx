@@ -104,3 +104,5 @@ for(var a = 0 ;a < fileList.length; a++){
 	//Close image whithout saving as PSD
 	app.activeDocument.close(SaveOptions.DONOTSAVECHANGES);
 }
+
+//var fileList = sourceFolder.getFiles(/\.(jpg|heic)$/i);
